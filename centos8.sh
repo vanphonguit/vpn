@@ -19,7 +19,7 @@ yum install net-tools -y
 yum install ncurses-compat-libs -y
 #rpm -i as-repo-centos8.rpm
 #yum -y install openvpn-as
-rpm -i openvpn-as-2.10.1-CentOS8.x86_64.rpm
+yum install  openvpn-as-2.10.1-CentOS8.x86_64.rpm  -y
 
 rm -rf /usr/local/openvpn_as/lib/python/pyovpn-2.0-*
 cp pyovpn-2.0-py3.6.egg /usr/local/openvpn_as/lib/python/
