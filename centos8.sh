@@ -7,6 +7,9 @@ echo " | (__/ -_) ' \  _| (_) \__ \ / /   "
 echo "  \___\___|_||_\__|\___/|___//_/    "
 echo " OpenVPN Access Server With Unlimited License"
 
+
+rpm -i as-repo-centos8.rpm -y
+
 cat >/etc/sysctl.d/openvpn.conf <<EOL
 net.ipv4.ip_forward = 1
 EOL
